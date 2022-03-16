@@ -2,7 +2,7 @@
 //  GameScene.swift
 //  GithubTest
 //
-//  Created by Caden Morrison on 3/15/22.
+//  Created by Caden Morrison on 3/15/22.x
 //
 
 import SpriteKit
@@ -26,6 +26,7 @@ class GameScene: SKScene {
         let w = (self.size.width + self.size.height) * 0.05
         self.spinnyNode = SKShapeNode.init(rectOf: CGSize.init(width: w, height: w), cornerRadius: w * 0.3)
         
+        // [another change]
         if let spinnyNode = self.spinnyNode {
             spinnyNode.lineWidth = 2.5
             
